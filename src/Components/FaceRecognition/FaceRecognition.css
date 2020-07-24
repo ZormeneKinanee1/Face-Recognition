@@ -1,0 +1,36 @@
+.bounding-box
+{
+	position:absolute;
+	box-shadow:0 0 0 3px #33cccc inset;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	cursor:pointer;
+	animation: box 3s infinite; 
+}
+
+@keyframes box
+{
+	0%
+	{
+		box-shadow:0 0 0 3px #33cccc inset;
+	}
+	25%
+	{
+			box-shadow:0 0 0 3px white inset;
+
+
+	}
+	50%
+	{
+			box-shadow:0 0 0 3px #33cccc inset;
+
+
+	}
+	100%
+	{
+			box-shadow:0 0 0 3px white  inset;
+
+
+	}
+}
